@@ -1,0 +1,78 @@
+
+.healthy-img-container{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.pineapp-img-container{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.smart-img-container{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.pineapp-img{
+  width:496px;
+  height:503px;
+  margin-right: -15px;
+}
+.healthy-img{
+  height: 521px;
+  width:462px;
+  margin-left: -15px;
+}
+.smart-img{
+  height: 503px;
+  width: 497px;
+  margin-right: -15px;
+}
+
+.article__main-title{
+  font-size: 100px;
+  font-family: Prata, serif;
+  letter-spacing: 0.2em;
+}
+
+#works-title{
+  color:rgb(65,204,196);
+}
+#team-title{
+  color:rgb(0,49,112);
+}
+#contact-title{
+  color:rgb(243,116,123);
+}
+
+.works__panel-text{
+  font-family: Prata,serif;
+  line-height: 1.2;
+  //padding: 0 20px;
+  margin: 0 100px;
+
+  .works__title{
+    font-size: 50px;
+    color: rgb(22,115,110);
+  }
+
+  .works-info{
+    font-size: 18px;
+    color: rgb(22,115,110);
+  }
+
+  a{
+    font-family: 'Inconsolata', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.14em;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(47,219,210);
+  }
+}
+
