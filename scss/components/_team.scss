@@ -1,0 +1,61 @@
+#team-title{
+  color:rgb(0,49,112);
+  margin: 64px 0 64px -70px;
+}
+
+.team-img-container{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.team-img{
+  width:749px;
+  height:729px;
+  margin-right: -15px;
+}
+
+.team__panel-left{
+  .team-aside{
+    position: absolute;
+    top: 50px;
+    left:0;
+    font-family: Inconsolata,sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: rgb(255,255,255);
+    width: 250px;
+    margin-left: -70px;
+  }
+}
+
+.team__panel-right{
+
+
+  .team-title{
+    font-family: 'Prata',serif;
+    font-size: 50px;
+    color: rgb(48,111,191);
+    line-height: 0.96;
+    margin: 15px 0 50px 15px;
+  }
+
+  .team-text{
+    font-size: 14px;
+    font-family: "Inconsolata",sans-serif;
+    color: rgb(68, 67, 85);
+    line-height: 1.2;
+    width: 442.5px;
+
+    span{
+      display: inline-block;
+      font-weight: bold;
+      margin: 10px auto 15px 15px;
+    }
+
+    p, ul{
+      margin: 10px auto 10px 15px;
+    }
+  }
+}
+

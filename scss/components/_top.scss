@@ -1,9 +1,7 @@
 .header{
   position: relative;
   width: 100vw;
-
   height:788px;
-  //height: 1576px;
 
   @media (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi) {
@@ -14,13 +12,14 @@
 .main-nav{
 
   position: absolute;
-  left: 90.193px;
-  top: 60.735px;
-  z-index: 86;
+  //left: 90.193px;
+  //top: 60.735px;
+  z-index: 100;
+  margin: 32px 42.5px;
+
 
   ul li{
     display: inline-block;
-    margin: 0 22.5px;
 
     @media (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi) {
@@ -29,13 +28,14 @@
 
     a{
       font-size: 22px;
-      //font-size: 44px;
       font-family: $mainFont;
       color: rgb(32, 196, 187);
       line-height: 1.2;
       text-align: left;
       text-decoration: none;
-      padding: 5px;
+      padding: 0 5px;
+      margin: 0 17.5px;
+
 
       @media (-webkit-min-device-pixel-ratio: 2),
       (min-resolution: 192dpi) {
@@ -50,15 +50,16 @@
 .header-title{
   font-family: $mainFont;
   font-size: 153.88px;
-  //font-size: 307.76px;
   color: rgb(255, 255, 255);
   position: absolute;
-  right: 100px;
-  bottom: 240px;
+  right: 50px;
+  bottom: 120px;
 
   @media (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi) {
     font-size: 307.76px;
+    right: 100px;
+    bottom: 240px;
   }
 
   &::before{
@@ -69,8 +70,6 @@
     bottom: 0;
     width: 414px;
     height: 5.5px;
-    //width: 828px;
-    //height: 11px;
 
     @media (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi) {
@@ -94,11 +93,8 @@
     &::before{
       height: 522.5px;
       width: 495px;
-      //height: 1045px;
-      //width: 990px;
       content: "H";
       font-size: 602.8px;
-      //font-size: 1205.59px;
       font-family: 'Josefin Sans', sans-serif;
       font-weight: bold;
       color: rgb(38, 99, 175);
@@ -106,32 +102,34 @@
       text-align: center;
       position: absolute;
       left:0;
-      bottom: 100px;
+      bottom: 50px;
 
       @media (-webkit-min-device-pixel-ratio: 2),
       (min-resolution: 192dpi) {
         height: 1045px;
         width: 990px;
         font-size: 1205.6px;
+        bottom: 100px;
+
       }
     }
     p{
       position: absolute;
       color: rgb(255,255,255);
       font-size: 18px;
-      //font-size: 36px;
       font-family: 'Inconsolata', sans serif;
       text-align: right;
-      right:100px;
-      bottom:100px;
-      width:430px;
-      //width:860px;
+      right: 50px;
+      bottom: 50px;
+      width: 430px;
       line-height: 1.2;
 
       @media (-webkit-min-device-pixel-ratio: 2),
       (min-resolution: 192dpi) {
         font-size: 36px;
-        width:860px;
+        width: 860px;
+        right: 100px;
+        bottom: 100px;
       }
     }
   }
@@ -144,13 +142,10 @@
 
     &::before{
       height: 355px;
-      width:335px;
-      //height: 710px;
-      //width:670px;
+      width: 335px;
       text-align: center;
       content: "D";
       font-size: 401.7px;
-      //font-size: 803.4px;
       font-family: 'Josefin Sans', sans-serif;
       font-weight: bold;
       color: rgb(65, 204, 196);
@@ -169,19 +164,19 @@
       position: absolute;
       color: rgb(22,115,110);
       font-size: 18px;
-      //font-size: 36px;
       font-family: 'Inconsolata', sans serif;
       text-align: right;
-      right:60px;
-      bottom:100px;
-      width:415px;
-      //width:630px;
+      right: 30px;
+      bottom: 50px;
+      width: 415px;
       line-height: 1.2;
 
       @media (-webkit-min-device-pixel-ratio: 2),
       (min-resolution: 192dpi) {
         font-size: 36px;
-        width:630px;
+        width: 630px;
+        right: 60px;
+        bottom: 100px;
       }
     }
   }
@@ -194,11 +189,8 @@
     &:before{
       width: 270px;
       height: 355px;
-      //width: 540px;
-      //height: 710px;
       content: "P";
       font-size: 401.7px;
-      //font-size: 803.4px;
       font-family: 'Josefin Sans', sans-serif;
       font-weight: bold;
       color: rgb(243, 116, 123);
@@ -218,20 +210,19 @@
       position: absolute;
       color: rgb(190,66,73);
       font-size: 18px;
-      //font-size: 36px;
       font-family: 'Inconsolata', sans serif;
       text-align: right;
-      right:60px;
-      bottom:100px;
-      width:300px;
-      //width:600px;
+      right: 30px;
+      bottom: 50px;
+      width: 300px;
       line-height: 1.2;
-      //font-weight: 400;
 
       @media (-webkit-min-device-pixel-ratio: 2),
       (min-resolution: 192dpi) {
         font-size: 36px;
-        width:600px;
+        width: 600px;
+        right: 60px;
+        bottom: 100px;
       }
     }
 
